@@ -205,15 +205,20 @@ footer nav a {
     text-decoration: none;
 }
 .about {
-    border-bottom: 1.5px dashed;
     margin: 0 10px 30px 20px;
 }
+.dash-line {
+    border-bottom: 1px dashed black;
+    max-width: 100%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
 .mid-page {
-    /* border: 4px solid black; */
     display: flex;
     flex-direction: row;
     max-width: 775px;;
-    height: 1000px;
+    height: 950px;
+    align-content: space-between ;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -222,28 +227,38 @@ footer nav a {
 .mid-page img {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    width: 375px;
 
 }
 
 .mid-square {
-    width: 375px;
-    height: 400px;
+    width: 370px;
+    height: 450px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-content: stretch;
+    align-items: stretch;
 
 }
-
+.square-p {
+    margin-top: 20px;
+    width: 370px;
+}
 .mid-square a {
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: black;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     border: 2px solid black;
     border-radius: 10px;
-    padding: 10px 25px 10px 25px;
+    height: 40px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .work-together {
-    margin: 10px 10px 40px 20px;
+    margin: 30px 10px 40px 20px;
 }
