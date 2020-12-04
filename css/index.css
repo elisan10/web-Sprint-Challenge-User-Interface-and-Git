@@ -31,6 +31,38 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+header { 
+    /* border: 2px solid black; */
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    
+}
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.jumbo {
+    width: 800px;
+    margin: auto ;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
 ol, ul {
 	list-style: none;
 }
@@ -104,14 +136,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.boxes .box1 {
+    background: teal;
+}
+.boxes .box2 {
+    background: gold;
+}
+.boxes .box3 {
+    background:cadetblue;
+}
+.boxes .box4 {
+    background: coral;
+}
+.boxes .box5 {
+    background: crimson;
+}
+.boxes .box6 {
+    background: forestgreen;
+}
+.boxes .box7 {
+    background: darkorchid;
+}
+.boxes .box8 {
+    background: hotpink;
+}
+.boxes .box9 {
+    background: hotpink;
+}
+.boxes .box10 {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +203,62 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about {
+    margin: 0 10px 30px 20px;
+}
+.dash-line {
+    border-bottom: 1px dashed black;
+    max-width: 100%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.mid-page {
+    display: flex;
+    flex-direction: row;
+    max-width: 775px;;
+    height: 950px;
+    align-content: space-between ;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto 0;
+}
+.mid-page img {
+    display: flex;
+    justify-content: center;
+    width: 375px;
+
+}
+
+.mid-square {
+    width: 370px;
+    height: 450px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: stretch;
+
+}
+.square-p {
+    margin-top: 20px;
+    width: 370px;
+}
+.mid-square a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work-together {
+    margin: 30px 10px 40px 20px;
 }
