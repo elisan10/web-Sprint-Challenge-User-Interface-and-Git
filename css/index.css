@@ -31,6 +31,38 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+header { 
+    /* border: 2px solid black; */
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    
+}
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.jumbo {
+    width: 800px;
+    margin: auto ;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
 ol, ul {
 	list-style: none;
 }
@@ -104,14 +136,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.boxes .box1 {
+    background: teal;
+}
+.boxes .box2 {
+    background: gold;
+}
+.boxes .box3 {
+    background:cadetblue;
+}
+.boxes .box4 {
+    background: coral;
+}
+.boxes .box5 {
+    background: crimson;
+}
+.boxes .box6 {
+    background: forestgreen;
+}
+.boxes .box7 {
+    background: darkorchid;
+}
+.boxes .box8 {
+    background: hotpink;
+}
+.boxes .box9 {
+    background: hotpink;
+}
+.boxes .box10 {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +203,47 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about {
+    border-bottom: 1.5px dashed;
+    margin: 0 10px 30px 20px;
+}
+.mid-page {
+    /* border: 4px solid black; */
+    display: flex;
+    flex-direction: row;
+    max-width: 775px;;
+    height: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto 0;
+}
+.mid-page img {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.mid-square {
+    width: 375px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.mid-square a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 25px 10px 25px;
+}
+.work-together {
+    margin: 10px 10px 40px 20px;
 }
